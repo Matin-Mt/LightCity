@@ -9,6 +9,12 @@ public class FastFoodShop extends Industry {
     /**
      * Industry type example (Business)
      * */
+    public String menu(){
+        return "1 - cheeseburger"+
+                "\n2 - Pepperoni pizza"+
+                "\n3 - pasta "+
+                "\n4 - Chicken sandwich";
+    }
     private static final float INCOME = 0.3f;
     private static final float EMPLOYEE_INCOME = 0.02f;
     public FastFoodShop(String title, Property property, Character character) {
